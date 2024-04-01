@@ -1,0 +1,71 @@
+/* color palette from <https://github.com/vuejs/theme> */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+:root {
+  --bg-color: rgb(255, 255, 255);
+  --snd-bf-color: #efefef;
+  --text-color-1: #e32023;
+  --text-color-2: #498d39;
+  --text-color-3: #5c422a;
+}
+
+:root {
+  --bg-color: #1b1a55;
+  --snd-bf-color: #535c91;
+  --text-color: white;
+  --main-color: #9290c3;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  padding: 0;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+.heading {
+  text-align: center;
+  font-size: 4.5rem;
+}
+
+span {
+  color: var(--main-color);
+}
+
+.btn {
+  margin-top: 2rem;
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background: var(--main-color);
+  border-radius: 4rem;
+  box-shadow: 0 0 1rem var(--main-color);
+  font-size: 1.6rem;
+  color: var(--bg-color);
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  transition: 0.5s ease;
+}
+
+.btn:hover {
+  box-shadow: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Nunito", sans-serif;
+}
