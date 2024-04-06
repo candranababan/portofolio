@@ -1,32 +1,24 @@
-<script>
-export default {
-  name: "Contact",
-};
-</script>
-
 <template>
   <section class="contact" id="contact">
     <h2 class="heading">Contact<span> Me</span></h2>
     <div class="container">
       <div class="icon-box" id="instagram">
-        <a href="https://www.instagram.com/lurrr.1">
+        <a href="http://www.instagram.com/cndr.05">
           <i class="fab fa-instagram"></i>
-          <span class="text">lurrr.1</span>
-        </a>
-      </div>
-      <div class="icon-box" id="linkedin">
-        <a href="https://www.linkedin.com/in/fadhlur-rohman-d1012/">
-          <i class="fab fa-linkedin"></i>
-          <span class="text">Fadhlur Rohman</span>
+          <span class="text" style="font-size: 20px">cndr.05</span>
         </a>
       </div>
       <div class="icon-box" id="github">
-        <a href="https://github.com/Lurrr1">
+        <a href="https://github.com/candranababan">
           <i class="fab fa-github"></i>
-          <span class="text">Lurrr1</span>
+          <span class="text" style="font-size: 20px">candra</span>
         </a>
       </div>
-      <h1>You can contact me with : fadlurrohman1204@gmail.com</h1>
+    </div>
+    <div class="contact-info">
+      <h1 style="margin-top: 40px">
+        You can contact me with: candranababan95@gmail.com
+      </h1>
     </div>
   </section>
 </template>
@@ -35,13 +27,13 @@ export default {
 .container {
   display: flex;
   align-items: center;
+  justify-content: center; /* Memusatkan ikon */
 }
 
 .icon-box {
   position: relative;
   top: 5vh;
-  left: 60vh;
-  margin: 0 10px 0 10px;
+  margin: 0 12.5px; /* Menambahkan jarak antara ikon */
   border-radius: 25px;
   display: flex;
   align-items: center;
@@ -68,16 +60,9 @@ export default {
   color: white;
 }
 
-.container h1 {
-  position: relative;
-  top: 25vh;
-  right: 30vh;
+.contact-info h1 {
   font-size: 30px;
-}
-
-.text {
-  font-size: 16px;
-  margin-right: 10px;
+  text-align: center;
 }
 
 .contact {

@@ -3,16 +3,14 @@
     <section class="about" id="about">
       <div class="about-content">
         <h2 class="heading">ABOUT <span>ME</span></h2>
-        <h3>Junior IoT Developer</h3>
+        <h3>Junior Web Developer</h3>
         <p>
-          Saya, Fadhlur Rohman, adalah seorang mahasiswa yang aktif di
-          Universitas Islam Riau, menjalani studi di Jurusan Teknik Informatika.
-          Saya sangat tertarik dalam bidang Internet of Things (IoT) dan
-          robotika. Memiliki keinginan yang mendalam terhadap implementasi robot
-          dalam industri pertambangan, saya juga memiliki minat yang kuat
-          terhadap dinamika dunia kerja. Saya yakin bahwa dedikasi serta
-          ketertarikan saya dalam bidang ini akan menjadi kontribusi yang
-          berarti dalam lingkungan professional.
+          Halo, nama saya Candra Nababan. Saya lahir di Pekanbaru pada 5
+          September 2003, dan saat ini berusia 20 tahun. Saya seorang mahasiswa
+          Teknik Informatika yang tertarik pada pengembangan website. Agama saya
+          adalah Kristen, dan saya sangat antusias dalam belajar tentang
+          teknologi serta bagaimana hal itu dapat digunakan untuk menciptakan
+          solusi yang bermanfaat bagi masyarakat. Senang berkenalan dengan Anda!
         </p>
       </div>
     </section>

@@ -11,7 +11,7 @@ export default {
     <nav class="navbar">
       <a href="#home" class="active">Home</a>
       <a href="#about">About</a>
-      <a href="#projects">Projects</a>
+
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -25,7 +25,7 @@ export default {
   width: 100%;
   padding: 2rem 9%;
   z-index: 100;
-  background: #070f2b /*var(--bg-color)*/;
+  background: #000000 /*var(--bg-color)*/;
   display: flex;
   justify-content: space-between;
   align-items: center;

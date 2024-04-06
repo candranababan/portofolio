@@ -7,7 +7,7 @@ export default {
 <template>
   <footer class="footer">
     <div class="footer-text">
-      <p>Copyright &copy; Fadhlur rohman | All Rights Reserved.</p>
+      <p>Copyright &copy; Candra Nababan | All Rights Reserved.</p>
     </div>
     <div class="footer-iconTop">
       <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
@@ -22,7 +22,7 @@ export default {
   align-items: center;
   flex-wrap: wrap;
   padding: 2rem 9%;
-  background: #070f2b /*var(--bg-color)*/;
+  background: #000000 /*var(--bg-color)*/;
 }
 
 .footer-text {
